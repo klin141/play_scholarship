@@ -1,0 +1,58 @@
+@(scholarships: List[Scholarship])
+
+@import helper._
+@import models._
+@import views.html.helper.input
+
+@main("Scholarship List") {
+	<div class="Content">
+		<div class="Nav">
+			<div class="Nav-inner">
+				<div class="Nav-logo">
+					<a href="@routes.Application.index"><img src="@routes.Assets.at("images/logo.png")" alt="Scholarismic"></a>
+				</div>
+
+				<div class="Nav-links">
+					<ul id="Nav-ul">
+						<li><a href="@routes.Application.signup">Sign Up</a></li>
+						<li><a href="@routes.Application.login">Log in</a></li>
+					</ul>
+				</div>
+
+				<div class="Nav-links-mobile">
+					<a href="#" onclick="return false;"><i class="fa fa-bars"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="Nav-below-mobile">
+			<ul id="Nav-ul-mobile">
+				<li><a href="@routes.Application.signup">Sign Up</a></li>
+				<li><a href="@routes.Application.login">Log in</a></li>
+			</ul>
+		</div>
+
+		<div class="Under-nav">
+			<div class="Title">
+				<h1>the foremost website for finding and managing your scholarships.</h1>
+			</div>
+
+			<div id="Computer">
+				<img src="@routes.Assets.at("images/computer.png")" alt="Scholarismic">
+			</div>
+			<div id="Content-main">
+				<div class="Title"><h1>Welcome to Scholarismic!</h1></div>
+
+				<div class="Content-main-content">
+					<p>This website is the foremost website for finding and managing your scholarships. It allows you find, add, edit, and remove scholarships and will keep track of all of your choices. In addition, you can search from a public database that features all the scholarships available.</p>
+				</div>
+
+				<div id="Content-main-button" class="Button-container">
+				    <div class="Button">
+				        <a href="@routes.Application.signup"><button>Register</button></a>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+}

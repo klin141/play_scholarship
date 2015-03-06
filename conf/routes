@@ -1,0 +1,25 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index()
+GET 	/editPage/:id				controllers.Application.editPageScholarship(id: Long)
+GET     /login          			controllers.Application.login()
+GET		/logout						controllers.Application.logout()
+GET		/signup						controllers.Application.signup()
+GET 	/users						controllers.Application.users()
+GET		/profileLogin				controllers.Application.profile()
+POST	/newScholarship				controllers.Application.newScholarship()
+POST	/editScholarship/:id		controllers.Application.editScholarship(id: Long)
+POST	/deleteScholarship/:id		controllers.Application.deleteScholarship(id: Long)
+POST	/authenticate				controllers.Application.authenticate()
+POST	/addLike/:id				controllers.Application.addLike(id: Long)
+POST	/addDislike/:id				controllers.Application.addDislike(id: Long)
+POST	/addToScholarships/:id		controllers.Application.addToScholarships(id: Long)
+
+POST	/newUser					controllers.Application.newUser()
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)

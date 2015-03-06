@@ -1,0 +1,27 @@
+
+
+/*---------------------------*/
+/* START DEFAULT TAG STYLES */
+body, html { background-color: #191919; } input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea, select { border: none; font-size: 16px; resize: none; height: auto; border-radius: 10px; margin: 0; outline: 0; padding: 15px; width: 100%; background-color: #777777; color: #373737; box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset; margin-bottom: 30px; } input[type="radio"], input[type="checkbox"] { margin: 0 4px 8px 0; } select { padding: 6px; height: 32px; border-radius: 2px; } ::-webkit-input-placeholder { color: #373737; } :-moz-placeholder { color: #373737; opacity: 1; } ::-moz-placeholder { color: #373737; opacity: 1; } :-ms-input-placeholder { color: #373737; }
+/* END DEFAULT TAG STYLES */
+/*-----------------------*/
+
+
+/*----------------------*/
+/* START CLASS STYLES */
+.Message { text-align: center; text-transform: uppercase; color: rgba(231,76,60, 0.5); margin-bottom: 20px; } .Form { margin-top: 40px; padding: 20px; background-color: #151515; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); max-width: 300px; text-align: center; margin-left: auto; margin-right: auto; } .Form-logo { text-align: center; max-width: 100%; padding: 40px; } .Form-return-home { text-transform: uppercase; color: white; text-align: center; max-width: 400px; } .Form-return-home a { text-decoration: none; color: white; }
+/* END CLASS STYLES */
+/*----------------*/
+
+
+/*------------------*/
+/* START ID STYLES */
+
+/* END ID STYLES */
+/*---------------/
+
+/*------------------*/
+/* START MEDIA QUERIES */
+@media screen and (max-width: 480px) { .Form { max-width: 480px; } }
+/* END MEDIA QUERIES */
+/*---------------/

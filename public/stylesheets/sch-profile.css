@@ -1,0 +1,20 @@
+
+
+/*---------------------------*/
+/* START DEFAULT TAG STYLES */
+body, html { background-color: white !important; } table { width: 100%; background-color: #ecf0f1; margin-top: 40px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); } th { padding: 20px; } td { padding: 20px; text-align: center; background-color: #2ecc71; } td:nth-child(even) { background-color: #3498db !important; }
+/* END DEFAULT TAG STYLES */
+/*-----------------------*/
+
+/*----------------------*/
+/* START CLASS STYLES */
+.Top-info { background-color: #ecf0f1; max-width: 400px; height: 140px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); } .Top-info-area { background-color: #3498db; padding: 20px; height: 30px; line-height: 30px; text-align: center; font-size: 30px; color: white; } .Top-info-header { background-color: #2ecc71; padding: 20px; height: 30px; line-height: 30px; text-align: center; font-size: 30px; color: white; text-transform: uppercase; } .Info { margin-top: 40px; max-width: 400px; margin-left: auto; margin-right: auto; } .Color-span { background-color: white; } .Settings-toggle a { color: black; } .ScholarshipBox { background-color: #ecf0f1; max-width: 400px; margin-left: auto; margin-right: auto; padding: 20px; margin-top: 40px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); }
+/* END CLASS STYLES */
+/*----------------*/
+
+/*------------------*/
+/* START MEDIA QUERIES */
+@media (max-width: 750px) { .Nav-links { display: none !important; } .Nav-links-mobile { float: right; display: inline-block; margin-top: -34px; font-size: 23px; color: white; } } .Nav-links-mobile i { border: 1px solid white; padding: 5px 12px 5px 12px; border-radius: 5px; } .Nav-links-mobile:hover { background-color: #2980b9; border-radius: 5px; border: none; } .Nav-links-mobile a{ text-decoration: none; color: white; } .Nav-links-mobile i:hover { border: none;} .Nav-below-mobile { height: 150px; padding-bottom: 10px; background-color: #3498db; width: 100%; } .Nav-below-mobile ul { text-align: center; } .Nav-below-mobile ul li { display: block !important; } .Nav-below-mobile ul li a { text-decoration: none; display: inline-block; color: white; text-decoration: none; background-color: #2980b9; padding: 3px; border-radius: 3px; margin-top: 13px; }
+@media (min-width: 750px) { .Nav-links-mobile { display: none !important; } .Nav-below-mobile { display: none; } }
+/* END MEDIA QUERIES */
+/*---------------/

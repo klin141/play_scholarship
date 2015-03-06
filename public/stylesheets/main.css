@@ -1,0 +1,37 @@
+
+
+/*--------------------------------*/
+/* START CSS RESET BY ERIC MEYER */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;} /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after,q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; }
+/* END CSS RESET BY ERIC MEYER */
+/*----------------------------*/
+
+
+/*---------------------------*/
+/* START DEFAULT TAG STYLES */
+body, html { background-color: white; font-family: 'Open Sans', sans-serif; } ::-webkit-scrollbar { width: 14px; height: 18px; border: 6px solid #f2f5f5; background-color: #333; } ::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece { background-color: #5eb5f0; } ::-webkit-scrollbar-thumb { height: 6px; border: 4px solid #5eb5f0;; background-clip: padding-box; -webkit-border-radius: 7px; background-color: #333; } ::-webkit-scrollbar-button { width: 0; height: 0; display: none; } ::-webkit-scrollbar-corner { background-color: transparent; } button { padding: 19px 39px 18px 39px; color: #FFF; background-color: #4bc970; font-size: 18px; text-align: center; font-style: normal; border-radius: 5px; width: 100%; border: 1px solid #3ac162; border-width: 1px 1px 3px; box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset; margin-bottom: 20px; margin-top: 10px; }
+/* END DEFAULT TAG STYLES */
+/*-----------------------*/
+
+
+/*----------------------*/
+/* START CLASS STYLES */
+.Content { width: auto; height: auto; } .Pull-left { float: left; margin-left: 10%; } .Title { max-width: 900px; margin-left: auto; margin-right: auto; padding: 20px; text-align: center; font-size: 40px; text-transform: uppercase; font-weight: 400; color: rgba(0,0,0,0.7); margin-bottom: 50px; } .Under-nav { margin-top: 100px; } .Nav { width: 100%; background-color: #5eb5f0; max-height: 50px; } .Nav-inner { padding: 10px; } .Nav-logo { width: 30px; } .Nav-logo img { max-width: 30px; max-height: 30px; } .Nav-links { float: right; display: inline-block; margin-top: -30px; } .Nav-links ul { display: inline-block; color: white; } .Nav-links ul li { display: inline-block; } .Nav-links ul li a { display: inline-block; text-transform: uppercase; color: white; text-decoration: none; background-color: #2980b9; padding: 5px; border-radius: 3px; } .Button-container { max-width: 300px; margin-left: auto; margin-right: auto; margin-top: 40px; } .hidden { display: none; } .Footer { width: 100%; height: 100px; background-color: white; border-top: 1px solid #bdc3c7; } .Footer-inner { padding: 20px; } .Footer-inner small { font-size: 10px; color: rgba(0,0,0,0.5); } .Pull-right { float: right; display: inline-block; margin-top: -60px; text-align: right; } .Pull-right a { color: rgba(0,0,0,0.5); text-decoration: none; } .Footer-disclaimer { max-width: 500px; } .bold { font-weight: 900; font-weight: bold; } .Content-main-content p { max-width: 900px; padding: 20px; font-size: 20px; text-transform: uppercase; margin-left: auto; margin-right: auto; text-align: center; color: #95a5a6; }
+/* END CLASS STYLES */
+/*----------------*/
+
+
+/*------------------*/
+/* START ID STYLES */
+#Computer { max-width: 1189px; margin-left: auto; margin-right: auto; } #Computer img { width: 100%; pointer-events: none; } #Content-main { background-color: #f2f5f5; width: 100%; margin-top: -2px;}
+/* END ID STYLES */
+/*---------------/
+
+/*------------------*/
+/* START MEDIA QUERIES */
+@media (max-width: 546px) { .Nav-links { display: none; } .Nav-links-mobile { float: right; display: inline-block; margin-top: -34px; font-size: 23px; color: white; } } .Nav-links-mobile i { border: 1px solid white; padding: 5px 12px 5px 12px; border-radius: 5px; } .Nav-links-mobile:hover { background-color: #2980b9; border-radius: 5px; border: none; } .Nav-links-mobile a{ text-decoration: none; color: white; } .Nav-links-mobile i:hover { border: none;} .Nav-below-mobile { height: 50px; background-color: #3498db; width: 100%; } .Nav-below-mobile ul { text-align: center; } .Nav-below-mobile ul li { display: inline-block; } .Nav-below-mobile ul li a { text-decoration: none; display: inline-block; color: white; text-decoration: none; background-color: #2980b9; padding: 3px; border-radius: 3px; margin-top: 13px; }
+@media (min-width: 546px) { .Nav-links-mobile { display: none; } .Nav-below-mobile { display: none; } }
+@media (max-width: 730px) { #Footer-links { display: none; } }
+@media (max-width: 705px) { #Content-main-button { display: none; } }
+/* END MEDIA QUERIES */
+/*---------------/
